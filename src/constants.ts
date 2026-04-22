@@ -6,4 +6,5 @@ export const INITIAL_WORDS: FlashcardData[] = [
   { id: 3, dutch: 'Hond', french: 'Chien' },
   { id: 4, dutch: 'Auto', french: 'Voiture' },
   { id: 5, dutch: 'Boek', french: 'Livre' },
+  { id: 6, dutch: 'Zon', french: 'Soleil' },
 ];
