@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Libre Baskerville", "Georgia", serif;
+  --color-natural-bg: #F5F2ED;
+  --color-natural-ink: #4A4A40;
+  --color-natural-sage: #8B9D77;
+  --color-natural-muted: #A09E94;
+  --color-natural-main: #3D3D35;
+  --color-natural-line: #EAE6DF;
+}
+
+@layer base {
+  body {
+    @apply bg-natural-bg font-serif text-natural-ink;
+  }
+
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+  
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+  
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+  
+  .rotate-y-180 {
+    transform: rotateY(180deg);
+  }
+}
